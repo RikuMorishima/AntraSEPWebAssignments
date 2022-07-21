@@ -1,0 +1,14 @@
+.projectBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectBox > .projectImg {
+    width:100px;
+    height:100px;
+}
+
+.projectBox > .projectDesc {
+    height:100px;
+    padding:10px;
+}

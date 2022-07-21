@@ -1,0 +1,103 @@
+body {
+    margin:0px;
+    display: flex;
+}
+.header {
+    display:flex;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    height:50px;
+    background-color: blue;
+}
+
+.header > .applyButton {
+    position:absolute;
+    right: 10px;
+    align-self: center;
+}
+
+body > .mainContent {
+    background-color: aqua;
+    display: flex;
+    position: relative;    
+    flex-direction: column;
+}
+
+.mainContent {
+    width:100%;
+    height:100%;
+    margin:50px;
+    padding:1em;
+    display: flex;
+}
+
+.mainContent > .topic {
+    flex-grow:1;
+}
+
+.mainContent > .newsFeed {
+    flex-grow:5;
+}
+
+.mainContent > .newsPagination {
+    flex-grow:5;
+}
+
+
+.newsFeed {
+    display: flex;
+}
+
+
+
+.newsBox {
+    flex: 33%;
+    margin:1em;
+    height:400px;
+    background-color: aliceblue;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsBox > .newsTitle {
+    font-size:large;
+    flex-grow:0;
+    padding:10px;
+}
+
+.newsBox > .newsPublisher {
+    flex-grow:0;
+    padding:0px;
+}
+
+.newsBox > .newsDate {
+    right:10px;
+    flex-grow:0;
+    padding:0px;
+}
+
+.newsBox > .newsContent {
+    flex-grow:14;
+}
+
+.newsBox > .newsTags {
+    right:10px;
+    flex-grow:1;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination > li {
+    width:30px;
+    height:30px;
+    margin:10px;
+    background-color: orange;
+}

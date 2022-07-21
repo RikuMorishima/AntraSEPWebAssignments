@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0px;
+}
+
+.footer {
+    display:flex;
+    position:absolute;
+    bottom:0px;
+    background-color: aquamarine;
+    width:100%;
+    box-sizing:border-box;
+    margin:0px;
+
+}
+
+.menuSections {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    padding:20px;
+}
+
+.menuSections > .sectionList {
+    margin:10px;
+    flex:25%;
+}
+
+.footerLink {
+    display: flex;
+    flex-direction:column;
+}
+
+.footerList > .footerLink {
+    flex:25%;
+}
