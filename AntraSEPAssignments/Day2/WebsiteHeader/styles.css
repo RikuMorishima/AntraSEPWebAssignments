@@ -1,0 +1,55 @@
+.searchBar {
+    display: flex;
+}
+
+.searchBox {
+
+    align-items: flex-end;
+}
+
+.searchButton {
+
+    align-items: flex-end;
+}
+
+.logo {
+ 
+    left:10px;
+    top:10px;
+    width:15%;
+    height:10%;
+}
+
+.header {
+    background-color: blue;
+    display:flex;
+    margin:0px;
+    padding:0px;
+}
+
+.menu {
+
+    background-color: aquamarine;
+    display: flex;
+    margin:0px;
+    padding:0px;
+}
+
+.menu > .menuOption {
+    margin:10px;
+    font-size: large;
+}
+
+.menuOption:hover {
+    background-color: rgb(74, 148, 124);
+}
+
+.dropdownContent {
+    display:none;
+    position: relative;
+}
+
+.menuOption:hover .dropdownContent {
+    display: block;
+}
+
